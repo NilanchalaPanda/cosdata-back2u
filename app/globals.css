@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9f6f4;
+  --secondary: #18191b;
+  --primary: #c08459;
+  --radius: 0.5rem;
+}
+
+body {
+  --background: #f9f6f4;
+  --secondary: rgba(24, 25, 27, 1);
+
+  background-color: var(--background);
+  color: black;
+
+  --radius: 0.5rem;
+}
+
+@theme {
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  --color-primary: #c08459;
+}
